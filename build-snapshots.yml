@@ -1,8 +1,8 @@
 name: Build SNAPSHOT
 
 on:
-  schedule:
-    - cron: 0 16 * * *
+  watch:
+    types: started
 
 jobs:
   build:
